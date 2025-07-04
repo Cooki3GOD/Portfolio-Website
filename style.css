@@ -89,7 +89,7 @@ nav {
     transition: width 0.3s ease;
 }
 
-.navLink:hover::before {
+.navLink:hover::after {
     width: 100%;
 }
 
