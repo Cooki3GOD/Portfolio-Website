@@ -270,7 +270,7 @@ nav {
     color: var(--primary);
 }
 
-.aboutDevider {
+.aboutDivider {
     width: 5rem;
     height: 4px;
     background-color: var(--primary);
