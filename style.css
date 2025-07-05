@@ -359,3 +359,146 @@ nav {
         grid-template-columns: 1fr;
     }
 }
+
+.projects {
+    padding: 5rem 1.5rem;
+}
+
+.projectsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projectsHeader {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.projectTittle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e2e8f0;
+    margin-bottom: 1rem;
+}
+
+.projectTittle span {
+    color: var(--primary);
+}
+
+.projectDivider {
+    width: 5rem;
+    height: 4px;
+    background-color: var(--primary);
+    margin: 0 auto 1.5rem;
+}
+
+.projectsSubText {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #94a3b8;
+}
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.projectCard {
+    background-color: rgba(30, 41, 59, 0.5);
+    border: 1px solid #1e293b;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.projectCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.projectIcon {
+    height: 12rem;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.projectIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projectTags {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.projectTag {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+}
+
+.tag-purple {
+    background-color: rgba(88, 28, 135, 0.5);
+}
+
+.tag-orange {
+    background-color: rgba(237, 180, 58, 0.5);
+}
+
+.tag-lightblue {
+    background-color: rgba(99, 176, 205, 0.5);
+}
+
+.tag-yellow {
+    background-color: rgba(245, 213, 71, 0.5);
+}
+
+.projectName {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin-bottom: 0.5rem;
+}
+
+.projectDescirption {
+    color: #94a3b8;
+    margin-bottom: 1rem;
+}
+
+.projectLinks {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.projectLinks a{
+    color: #c084fc;
+    transition: color 0.3s ease;
+}
+
+.projectLinks a:hover {
+    color: #a78bfa;
+}
+
+.projectsCta {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .projectGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projectGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
